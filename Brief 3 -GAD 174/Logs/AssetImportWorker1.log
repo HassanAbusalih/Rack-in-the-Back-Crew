@@ -1,0 +1,278 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8078 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Ibrahim Mekkaoui/OneDrive/Desktop/174 brief 3 git/Brief 3 -GAD 174
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53255
+Successfully changed project path to: C:/Users/Ibrahim Mekkaoui/OneDrive/Desktop/174 brief 3 git/Brief 3 -GAD 174
+C:/Users/Ibrahim Mekkaoui/OneDrive/Desktop/174 brief 3 git/Brief 3 -GAD 174
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 107.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ibrahim Mekkaoui/OneDrive/Desktop/174 brief 3 git/Brief 3 -GAD 174/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018606 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (966ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010366 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ibrahim Mekkaoui\OneDrive\Desktop\174 brief 3 git\Brief 3 -GAD 174\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ibrahim Mekkaoui\OneDrive\Desktop\174 brief 3 git\Brief 3 -GAD 174\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1928ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (996ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (470ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (55.7 KB). Loaded Objects now: 3706.
+Memory consumption went from 115.7 MB to 115.6 MB.
+Total: 6.696900 ms (FindLiveObjects: 1.541200 ms CreateObjectMapping: 0.509600 ms MarkObjects: 4.522600 ms  DeleteObjects: 0.119900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64167.157599 seconds.
+  path: Assets/rack in the back/table texture/Material _2_Height.png
+  artifactKey: Guid(136b6d28fe855fd489b728e78a5d1304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rack in the back/table texture/Material _2_Height.png using Guid(136b6d28fe855fd489b728e78a5d1304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718a9baabd98a8624e6f474d92b565b0') in 0.577561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.443969 seconds.
+  path: Assets/Apple of eden textures/01 - Default_Metallic.png
+  artifactKey: Guid(4c916fece26b882478b5d7697255d69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple of eden textures/01 - Default_Metallic.png using Guid(4c916fece26b882478b5d7697255d69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4cca8601eb405200c9bd03fba19d28') in 0.186237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024064 seconds.
+  path: Assets/New TEXTu/Building 321_01 - Default_AO.png
+  artifactKey: Guid(db16343ab89ea764e9f1d65e8834a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_01 - Default_AO.png using Guid(db16343ab89ea764e9f1d65e8834a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1042f5e716c4805efc145b9eddf33fad') in 0.068136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Altair Set/Knives Normal_DirectX.png
+  artifactKey: Guid(bbd0a85645c8d564d818ed251816d2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Altair Set/Knives Normal_DirectX.png using Guid(bbd0a85645c8d564d818ed251816d2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7497deb1384e50d333f9e7c2b176aba') in 0.106604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/Fonts/aauxnextltwebfont SDF.asset
+  artifactKey: Guid(b60e14c0fb53b6542a098910a2e51da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/aauxnextltwebfont SDF.asset using Guid(b60e14c0fb53b6542a098910a2e51da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1069cf50da3fd44ee78f5b4d7f33ee') in 0.822651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025908 seconds.
+  path: Assets/New TEXTu/Building 321_Material _4_Metallic.png
+  artifactKey: Guid(12391883be8208345ae1d99cb64a978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _4_Metallic.png using Guid(12391883be8208345ae1d99cb64a978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dc06cb7e497b6b41237172b6f0154c') in 0.195837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044465 seconds.
+  path: Assets/New TEXTu/Building 321_01 - Default_Albedo.png
+  artifactKey: Guid(bd5adf7f2f735704282e1c8b2d142ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_01 - Default_Albedo.png using Guid(bd5adf7f2f735704282e1c8b2d142ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9d3c2dce01409aec9269167fefbdd') in 0.073798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096014 seconds.
+  path: Assets/Apple of eden textures/01 - Default_Normal_OpenGL.png
+  artifactKey: Guid(9aff148ae4e4728479dda23d314d1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple of eden textures/01 - Default_Normal_OpenGL.png using Guid(9aff148ae4e4728479dda23d314d1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6918d871f500b80e1d618b13aad4e46') in 0.054276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061232 seconds.
+  path: Assets/Altair Set/Knives Roughness.png
+  artifactKey: Guid(a569f09cdb6ddf3489a3fd3c448c67bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Altair Set/Knives Roughness.png using Guid(a569f09cdb6ddf3489a3fd3c448c67bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4bacd6c5accad058163b31f85aca6b') in 0.094264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038121 seconds.
+  path: Assets/Apple of eden textures/01 - Default_Normal.png
+  artifactKey: Guid(68f38965729ff5b45a35db0aa611b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple of eden textures/01 - Default_Normal.png using Guid(68f38965729ff5b45a35db0aa611b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f907a230725671212ee3cdac2df65e52') in 0.086373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.120003 seconds.
+  path: Assets/New TEXTu/Building 321_Material _2_AO.png
+  artifactKey: Guid(9ef509e6dd6157741b0d5fb127bf3079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _2_AO.png using Guid(9ef509e6dd6157741b0d5fb127bf3079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2611613ca6df4c4699fbef6dc6310bc') in 0.139089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002282 seconds.
+  path: Assets/Altair Set/Hood_Normal.png
+  artifactKey: Guid(b61b318bd5b4fe443a067b7fd5183bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Altair Set/Hood_Normal.png using Guid(b61b318bd5b4fe443a067b7fd5183bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8308047fa0290ee0fb77ca4426b9cb24') in 0.132612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011481 seconds.
+  path: Assets/New TEXTu/Building 321_01 - Default_Height.png
+  artifactKey: Guid(74c46cb618d411f439ecfb3c31258714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_01 - Default_Height.png using Guid(74c46cb618d411f439ecfb3c31258714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a218d90f32b535c520e79235f060095c') in 0.070987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073573 seconds.
+  path: Assets/New TEXTu/Building 321_Material _2_Albedo.png
+  artifactKey: Guid(b669a30710a85c04f8da72f1f23bc14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _2_Albedo.png using Guid(b669a30710a85c04f8da72f1f23bc14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99d065a518c936e548976e79b0dd959') in 0.098795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001006 seconds.
+  path: Assets/New TEXTu/Building 321_Material _3_Normal.png
+  artifactKey: Guid(edf62f6b4e1d3fd489a25a9449314d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _3_Normal.png using Guid(edf62f6b4e1d3fd489a25a9449314d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55aab4674a25d6c08b875320e3709ed9') in 0.157342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/New TEXTu/Building 321_Material _4_Normal.png
+  artifactKey: Guid(307dcaf30098a0b4890992edf6250426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _4_Normal.png using Guid(307dcaf30098a0b4890992edf6250426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b00c6b7fc8d01e0c35867940917c119') in 0.180420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/New TEXTu/Building 321_Material _3_AO.png
+  artifactKey: Guid(4a647cfbb967191408f64d330256ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _3_AO.png using Guid(4a647cfbb967191408f64d330256ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a1071bc6be2622840c2991735e50ff') in 0.125761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/New TEXTu/Building 321_Material _4_Albedo.png
+  artifactKey: Guid(fc30ae78c1173934fba4521fb0d34e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _4_Albedo.png using Guid(fc30ae78c1173934fba4521fb0d34e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53d195e6445b348fa56538747f179ad') in 0.150767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002695 seconds.
+  path: Assets/New TEXTu/Building 321_Material _2_Height.png
+  artifactKey: Guid(740728f453dbecb458567f15735a5e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TEXTu/Building 321_Material _2_Height.png using Guid(740728f453dbecb458567f15735a5e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0444a48e1de2cf00d34f0872aa6e285') in 0.178708 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
