@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{89B76E8C-7B03-7263-64D5-39D0749B2AFF}</ProjectGuid>
+    <ProjectGuid>{DCA23948-0164-4045-29A9-B51FE564166E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>UnityEngine.SpatialTracking</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,33 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Tooltip.cs" />
-    <Compile Include="Assets\Scripts\Stats.cs" />
-    <Compile Include="Assets\Scripts\TooltipManager.cs" />
-    <Compile Include="Assets\Scripts\StatsInit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\BasePoseProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\TrackedPoseDriver.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\UnityEngine.SpatialTracking.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -660,89 +639,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{F8145B75-45A0-65DD-C8D9-4D39F891C6DB}</Project>
-      <Name>Purchasing.Common.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
-      <Project>{544D8A61-66C4-EBFE-90F2-458471E13E6F}</Project>
-      <Name>UnityEngine.Purchasing.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.Player.csproj">
-      <Project>{1EF7C00F-9D8D-2D99-BFFD-89E8C511254A}</Project>
-      <Name>UnityEngine.Purchasing.SecurityStub.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{41C449D3-EEC5-72C4-0370-4A3AB4FB55CB}</Project>
-      <Name>UnityEngine.Advertisements.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{A719A3FB-9277-4DBE-33C0-174D12F5D001}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{DCA23948-0164-4045-29A9-B51FE564166E}</Project>
-      <Name>UnityEngine.SpatialTracking.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Analytics.DataPrivacy.Player.csproj">
-      <Project>{F80513C6-3DB0-632A-5A9E-C5264D7C70AC}</Project>
-      <Name>Unity.Analytics.DataPrivacy.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{AF0C184F-1DFF-56DA-58F2-83B5AC3272E6}</Project>
-      <Name>Cinemachine.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.Codeless.Player.csproj">
-      <Project>{609726E5-E8D1-73D1-04E1-60B804E2B830}</Project>
-      <Name>UnityEngine.Purchasing.Codeless.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Monetization.Player.csproj">
-      <Project>{00272F27-D408-F81D-AD6F-E007D180B4CC}</Project>
-      <Name>UnityEngine.Monetization.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{74F090EF-B05F-C2C4-87DC-F9A991ADBA9A}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{BDAC0514-B84F-66E2-DEE5-FE4C8E9CFDF4}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{E0C922E8-5440-1C7C-5D98-EBF84B1E7198}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{20F6D36C-15AB-B356-0346-47C07A61B550}</Project>
-      <Name>Unity.Services.Core.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{E3711903-D0B7-EE06-2464-6553124F12DF}</Project>
-      <Name>Unity.VisualScripting.Core.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{1CF8FB6A-E3BC-832A-E7CE-F1DA14F8415B}</Project>
-      <Name>Unity.Services.Core.Analytics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
-      <Project>{2A772F5B-DCCE-D498-7895-B78228A03860}</Project>
-      <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{9CB891C0-664F-6B11-80EC-9E3938DB8C9A}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{E02A91D3-708A-CA1A-4244-9733F1CDB5C6}</Project>
-      <Name>Unity.Services.Core.Environments.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
-      <Project>{D9A5DED1-5860-ECBE-330F-906F268B9D60}</Project>
-      <Name>UnityEngine.Purchasing.Stores.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{D914993E-C643-9144-AE7B-061004B0F003}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
